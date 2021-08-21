@@ -10,7 +10,8 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@oclif/plugin-help": "^3"
+    "@oclif/plugin-help": "^3",
+    "standard": "^16.0.3"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
@@ -21,7 +22,7 @@
     "nyc": "^14"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=14.0.0"
   },
   "files": [
     "/bin",
