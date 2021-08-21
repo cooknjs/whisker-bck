@@ -31,6 +31,7 @@ USAGE
 <!-- commands -->
 * [`whisker hello`](#whisker-hello)
 * [`whisker help [COMMAND]`](#whisker-help-command)
+* [`whisker serve`](#whisker-serve)
 
 ## `whisker hello`
 
@@ -66,4 +67,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
+
+## `whisker serve`
+
+Describe the command here
+
+```
+USAGE
+  $ whisker serve
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/serve.js](https://github.com/cooknjs/whisker/blob/v0.1.0/src/commands/serve.js)_
 <!-- commandsstop -->
